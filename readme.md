@@ -1,1 +1,10 @@
-[Click on this Link to access the .csv file. ](https://drive.google.com/file/d/1BFxYV8Yvs0lvrcx3d8wmWEIXk4TAzLBh/view?usp=sharing)
+# For using the API
+
+Run the following command to install the following dependencies first :
+
+``pip install flask``
+
+For testing the API use the following command :
+
+For curl : ``curl -X POST http://127.0.0.1:5000/predict -H "Content-Type: application/json" -d '{"text": "Your news article text here"}' ``
+
